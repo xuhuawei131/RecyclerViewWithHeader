@@ -1,0 +1,34 @@
+<com.xuhuawei.recyclerviewwithheader.views.StickyNavLayout
+        xmlns:tools="http://schemas.android.com/tools"
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+    <RelativeLayout
+            android:id="@+id/id_stickynavlayout_topview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#4400ff00">
+        <TextView
+                android:id="@+id/text_des"
+                android:layout_marginTop="-50dp"
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:gravity="center"
+                android:text="软件介绍"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#44ff0000"
+            android:scrollbars="none">
+
+    </android.support.v7.widget.RecyclerView>
+
+</com.xuhuawei.recyclerviewwithheader.views.StickyNavLayout>
